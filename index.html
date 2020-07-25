@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="Responsive\Responsividade-768-991px.css">
+    <link rel="stylesheet" href="Responsive\Responsividade-1200px.css">
+    <link rel="stylesheet" href="Responsive\Responsividade-426-575px.css">
+    <link rel="stylesheet" href="Responsive\Responsividade-576-767px.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <main class="Pagina">
+      <nav class="navbar navbar-expand-lg navbar-light Menu">
+            <a class="TituloTextoBlackMenu" href="#">Parcelandoo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse Itens" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="ItemMenu">
+                  <a class="TextoBlack" href="#Inicio">Início</a>
+                </li>
+                <li class="ItemMenu">
+                  <a class="TextoBlack" href="#empresa">Empresa</a>
+                </li>
+                <li class="ItemMenu">
+                  <a class="TextoBlack" href="#porque">Qualidades</a>
+                </li>
+                <li class="ItemMenu">
+                  <a class="TextoBlack" href="#cliente">Orçamento</a>
+                </li>
+              </ul>
+              <div class="logincadastro">
+                <button type="button" class="gray" name="button" data-toggle="modal" data-target="#exampleModal">Login</button>
+                <button type="button" name="button" data-toggle="modal" data-target="#exampleModal2">Cadastro</button>
+              </div>
+            </div>
+        </nav>
+        <scroll-page id="Inicio"></scroll-page>
+        <div class="Banner">
+          <div class="conteudo-banner">
+              <div class="titulo">
+                <h1>Parcelandoo</h1>
+              </div>
+              <div class="texto">
+                <p>Parcele diversas contas em até 12 vezes no Cartão de Crédito.</p>
+              </div>
+              <div class="BotaoBanner">
+                <button type="button" name="button">Faça uma simulação</button>
+              </div>
+            </div>
+            <div class="ImagemBanner img-fluid">
+            </div>
+        </div>
+        <scroll-page id="empresa"></scroll-page>
+        <section class="descricao">
+          <h2>Sobre nós</h2>
+          <p>A Parcelandoo nasceu porque sabemos que imprevistos acontecem e adequar o fluxo financeiro é essencial nesses momentos. De forma transparente, queremos facilitar o pagamento de contas para nossos clientes, em um processo ágil e seguro.</p>
+        </section>
+        <scroll-page id="porque"></scroll-page>
+        <div class="porquenos">
+        <h2>Por que nos contratar ?</h2>
+          <div class="ItensPorque row">
+            <div class="ItemPorque col-12 col-sm-12 col-md-3 col-lg-3">
+              <div class="ImagemItem3">
+              </div>
+              <div class="TituloPorque">
+                <h3>Parcelamento no crédito</h3>
+              </div>
+              <div class="TextoPorque">
+                <p>Por sermos uma empresa nova, nos dedicamos ao máximo para um maior crescimento e confiabilidade dos nossos clientes.</p>
+              </div>
+            </div>
+            <div class="ItemPorque col-12 col-sm-12 col-md-3 col-lg-3">
+              <div class="ImagemItem1">
+              </div>
+              <div class="TituloPorque">
+                <h3>Segurança</h3>
+              </div>
+              <div class="TextoPorque">
+                <p>Por sermos uma empresa nova, nos dedicamos ao máximo para um maior crescimento e confiabilidade dos nossos clientes.</p>
+              </div>
+            </div>
+            <div class="ItemPorque col-12 col-sm-12 col-md-3 col-lg-3">
+              <div class="ImagemItem">
+              </div>
+              <div class="TituloPorque">
+                <h3>Dedicação</h3>
+              </div>
+              <div class="TextoPorque">
+                <p>Por sermos uma empresa nova, nos dedicamos ao máximo para um maior crescimento e confiabilidade dos nossos clientes.</p>
+              </div>
+            </div>
+          </div>
+          </div>
+          <section class="ResolvaProblemas">
+            <div class="ImagemProblemas">
+            </div>
+            <div class="ConteudoProblemas">
+              <h2>Acabe com seus problemas agora mesmo!</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <div class="BotaoProblemas">
+                <button type="button" name="button">Parcelar Agora</button>
+              </div>
+            </div>
+          </section>
+          <section class="Orcamento">
+            <h2>Simule o valor de suas parcelas!</h2>
+            <div class="OrcamentoConteudo row">
+              <div class="Calculadora col-12 col-sm-12 col-md-6 col-lg-6">
+                <label for="">Valor da conta</label>
+                <input type="text" id="valor">
+                <label for="">Parcelas</label>
+                <input type="text" id="parcelas">
+                <label for="" id="resultado"></label>
+                <button type="button" name="button" id="calcular">Calcular</button>
+              </div>
+              <div class="OrcamentoInformacoes col-12 col-sm-12 col-md-6 col-lg-6">
+                <h4>Informações</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+              </div>
+            </div>
+          </section>
+          <scroll-page id="cliente"></scroll-page>
+          <section class="FAQ">
+            <h2>Principais Dúvidas</h2>
+            <div class="Perguntas">
+              <div class="ColunaFAQ1">
+                <div class="PerguntaContainer">
+                  <h6>Quais contas são aceitas pela Parcelandoo?</h6>
+                  <p>
+Nos aceitamos as seguintes contas: Contas de Consumo (ex.; água, energia, telefone), Multas de trânsito, Impostos (ex.: IPVA, IPTU, etc.), Boletos de condomínio, Financiamentos, entre outros. Se sua despesa não está listada acima entre em contato conosco para saber mais informações.</p>
+                </div>
+                <div class="PerguntaContainer">
+                  <h6>Estou negativado, posso utilizar o serviço?</h6>
+                  <p>Sim. Basta possuir um cartão de crédito com limite disponível que você poderá parcelar suas contas.</p>
+                </div>
+              </div>
+              <div class="ColunaFAQ2 row">
+                <div class="PerguntaContainer">
+                  <h6>Como posso funciona o serviço?</h6>
+                  <p>O processo é simples e rápido: 1) Faça seu Cadastro pelo WhatsApp; 2) Envie a conta e informe em quantas vezes deseja parcelar; 3) receba a proposta e confirme; 4) receba o link e realize o pagamento; 4) após recebermos a confirmação do pagamento, enviaremos seu comprovante.</p>
+                </div>
+                <div class="PerguntaContainer">
+                  <h6>Quem pode parcelar?</h6>
+                  <p>Qualquer pessoa que possua Cartão de Crédito com limite disponível pode utilizar nossos serviços.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <footer>
+            <section class="FooterConteudo">
+              <div class="Sessao">
+                <h3>Parcelandoo</h3>
+                <div class="Contatos">
+                  <p>E-mail: contato@parcelandoo.com.br</p>
+                  <p>Telefone: +55 11962062001</p>
+                </div>
+              </div>
+              <div class="Sessao">
+                <div class="Links">
+                  <a href="#">Orçamento</a>
+                  <a href="#">Qualidades</a>
+                  <a href="#">Empresa</a>
+                  <a href="#">Home</a>
+                </div>
+              </div>
+            </section>
+            <div class="CopyRight">
+              <p>Copyright ©2020 All rights reserved | Parcelandoo</p>
+              <p>Icones by <a href="https://icons8.com.br/">Icons8</a></p>
+            </div>
+          </footer>
+        <a class="whatsapp-link" href="https://wa.me/5511952588464?text=Eu%20tenho%20interesse%20em%20parcelar%20um%20boleto." target="_blank"></a>
+
+<!-- Fim da página -->
+
+        <div class="modal fade modelTamanho" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="text-primary">Login</h5>
+                <h5 data-toggle="modal" data-target="#exampleModal2" data-dismiss="modal">Cadastro</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form class="" action="php/login.php" method="post">
+                  <div class="PartesLogin">
+                    <label for="">E-mail</label>
+                    <input type="text" name="login" id="login">
+                  </div>
+                  <div class="PartesLogin">
+                    <label for="">Senha</label>
+                    <input type="password" name="senha" id="senha">
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary buttonModelTamanho" value="entrar" id="entrar" name="entrar">Entrar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade modelTamanho" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 data-toggle="modal" data-target="#exampleModal" data-dismiss="modal">Login</h5>
+                <h5 class="text-primary">Cadastro</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form class="" action="index.html" method="post">
+                  <div class="PartesLogin">
+                    <label for="">E-mail</label>
+                    <input type="text" name="" value="">
+                  </div>
+                  <div class="PartesLogin">
+                    <label for="">Senha</label>
+                    <input type="password" name="" value="">
+                  </div>
+                  <div class="PartesLogin">
+                    <label for="">Senha</label>
+                    <input type="password" name="" value="">
+                  </div>
+                  <div class="PartesLogin">
+                    <label for="">Senha</label>
+                    <input type="password" name="" value="">
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary buttonModelTamanho">Cadastrar-se</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+    <script type="text/javascript" src="./js/JurosSimles.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
