@@ -1,3 +1,112 @@
 button{
   cursor: pointer;
 }
+
+.Menu img{
+  width: 15%;
+  margin-left: 2%;
+}
+
+.Menu{
+  margin: none;
+}
+
+.Banner img{
+  width: 80%;
+}
+
+footer{
+  border-top: 2px solid #0956cc;
+}
+
+.Sessao img{
+  width: 50%;
+}
+
+ul{
+  margin-right: 6%;
+}
+
+.Menu {
+  padding-right: 2%;
+}
+
+.ItemMenu{
+  color: gray;
+}
+
+.form-inline{
+  margin-top: 1%;
+}
+
+.form-inline button{
+  background-color: #09cc7f;
+  color: white;
+  font-size: 19px;
+  font-weight: 700;
+  border: 1px solid #09cc7f;
+  transition: 0.3s;
+}
+
+.form-inline button:hover{
+  background-color: rgba(1,1,1,0);
+  color: #09cc7f;
+  border: 1px solid #09cc7f;
+}
+
+.ImagemItem{
+  width: 50%;
+  height: 40%;
+  margin-left: 25%;
+  background-image: url(../img/confirma.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 110px;
+  background-color: white;
+  margin-top: 1%;
+}
+
+.ImagemItem1{
+  width: 50%;
+  height: 40%;
+  margin-left: 25%;
+  background-image: url(../img/conta.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 110px;
+  background-color: white;
+  margin-top: 1%;
+}
+
+.ImagemItem3{
+  width: 50%;
+  height: 40%;
+  margin-left: 25%;
+  background-image: url(../img/cadastro.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 110px;
+  background-color: white;
+  margin-top: 1%;
+}
+
+.TituloPorque{
+  margin-top: 0.1%;
+  margin-left: 15%;
+}
+
+.TextoPorque{
+  width: 90%;
+  height: 35%;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.TextoPorque p{
+  font-weight: 100;
+  font-size: 18px;
+  text-align: center;
+  color: grey;
+  line-height: 135%;
+  word-spacing: 10%;
+}

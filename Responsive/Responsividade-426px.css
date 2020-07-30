@@ -169,7 +169,7 @@
   }
 
   .conteudo-banner{
-    width: 65%;
+    width: 90%;
     height: 50%;
     margin-top: 35%;
     margin-left: 5%;
@@ -178,7 +178,7 @@
 
   .titulo{
     width: 100%;
-    height: 24%;
+    height: 19%;
   }
 
   .titulo h1{
@@ -190,13 +190,14 @@
 
   .texto{
     width: 100%;
-    height: 25%;
+    height: 22%;
     color: white;
     font-size: 135%;
     word-spacing: 25%;
     line-height: 110%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
   }
+
 
   .BotaoBanner button{
     padding: 4.5% 3.5% 4.5% 3.5%;
@@ -319,7 +320,7 @@
 
   .ResolvaProblemas{
     width: 100%;
-    height: 55%;
+    height: 65%;
     margin: auto;
     margin-bottom: 4%;
     background-color: white;
